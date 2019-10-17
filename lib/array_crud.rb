@@ -8,7 +8,8 @@ end
 
 def add_element_to_end_of_array(array, element)
   food = ["taco", "burger", "salad", "corn"]
-  food.push("hotdog")
+  food << "hotdog"
+  p add_element_to_end_of_array(arrey, element).last)
   
 end
 
